@@ -49,3 +49,18 @@ Allocated and free memory segments, each segment contains:
 - `Worst fit`: takes the largest hole
 
 # Virtual Memory
+
+![pagedmemory](https://user-images.githubusercontent.com/19282069/118848516-1bdad780-b8cf-11eb-880e-e9dcb8c634f2.png)
+
+Each process has its own address space, a **page**.     
+This page map the addresses of the process in a logical memory to the physical memory.      
+The OS can then choose whether it maps the addresses to the main memory or to a secondary memory.
+
+## Structure of a page table entry
+![pagestructure](https://user-images.githubusercontent.com/19282069/118849088-b0453a00-b8cf-11eb-8423-6f879208869d.png) 
+
+- `Present bit`: (1) entry valid. (0) the virtual page is not in memory = page fault  
+- `Protection bit`:  (1) read/write. (0) read
+- `Modified & referenced bits`: 
+- `Referenced bit`: 
+- `Caching disabled`: 
