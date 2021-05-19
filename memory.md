@@ -42,3 +42,10 @@ Allocated and free memory segments, each segment contains:
 **or**      
 - Empty hole between two process
 
+## Memory Management Algorithms
+- `First fit`: scan list for first hole big enough
+- `Next fit`: same as first but keeps track of suitable hole
+- `Best fit`: scan entire list and takes smallest possible hole
+- `Worst fit`: takes the largest hole
+
+# Virtual Memory
