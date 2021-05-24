@@ -22,7 +22,7 @@
 - Variable size
 - Visible by user program
 - No fragmentation
-15. What are the four necessary and sufficient conditions behind the deadlock?
+## 15. What are the four necessary and sufficient conditions behind the deadlock?
 - Mutual Exclusion
 - Busy Waiting
 - No preemption
